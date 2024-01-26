@@ -7,4 +7,5 @@ node 18 기준 5위 (JIT 모드 사용 시)
 
 단점
 - 가변 튜플 지원 안 함<br>
-예) [number, number, ...number[]]
+예) `[number, number, ...number[]]`<br>
+[가변 튜플 이슈](https://github.com/sinclairzx81/typebox/issues/632#issuecomment-1765605414) 참고
