@@ -57,6 +57,9 @@ importers:
 
   packages/test-typebox:
     dependencies:
+      '@sinclair/typebox':
+        specifier: ^0.32.13
+        version: 0.32.13
       '@testing-library/jest-dom':
         specifier: ^5.17.0
         version: 5.17.0
@@ -2080,6 +2083,10 @@ packages:
 
   /@sinclair/typebox@0.24.51:
     resolution: {integrity: sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==}
+
+  /@sinclair/typebox@0.32.13:
+    resolution: {integrity: sha512-6gfhrgov2RWxPIlGyFcCVn1DejhmQvObIiBIx/Qx3FRnxlLS/RuoyDxK1hhhVU+S5+1Xmul32QALLErVfinyxw==}
+    dev: false
 
   /@sinonjs/commons@1.8.6:
     resolution: {integrity: sha512-Ky+XkAkqPZSm3NLBeUng77EBQl3cmeJhITaGHdYH8kjVB+aun3S4XBRti2zt17mtt0mIUDiNxYeoJm6drVvBJQ==}
